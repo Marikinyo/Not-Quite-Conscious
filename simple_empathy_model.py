@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def get_ai_response(user_input: str) -> str:
     """
     Simulates a 'sentient' AI chatbot response based on simple keyword matching.
@@ -43,4 +37,3 @@ if __name__ == "__main__":
         response = get_ai_response(user_input)
         print(f"\nUser: {user_input}")
         print(f"  AI: {response}")
-
